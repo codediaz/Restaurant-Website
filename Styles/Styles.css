@@ -3,15 +3,54 @@
     Theme: Restaurant Website;
     Version: 1.0;
 */
+/*CSS FOR ALL*/
 *{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+.image-responsive{
+    width: 100%;
+}
+
 .container{
     border: 1px solid black;
     width: 80%;
     margin: 0 auto;
     padding: 1%;
     
+}
+.text-right{
+    text-align: right;
+}
+.clearfix{
+    clear: both;
+    float:none;
+}
+
+a {
+    color: #ff6348;
+    text-decoration: none;
+}
+
+/*NAVBAR*/
+
+.logo{
+    width: 10%;
+    float: left;
+    
+}
+
+.image-responsive{
+    width: 100%;
+}
+.menu{
+    line-height: 75px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display:inline;
+    padding: 1%;
 }
