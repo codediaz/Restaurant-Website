@@ -54,3 +54,14 @@ a {
     display:inline;
     padding: 1%;
 }
+
+/* Search Section*/
+.food-search{
+    background-image: url(/Media/bg.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7%;
+    
+
+}
