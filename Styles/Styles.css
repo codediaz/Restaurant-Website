@@ -14,7 +14,7 @@
 }
 
 .container{
-  
+    border: 1px solid black;
     width: 80%;
     margin: 0 auto;
     padding: 1%;
@@ -81,4 +81,49 @@ a {
     border-radius: 5px;
     border: none;
     font-size: 1rem;
+}
+
+/*Explore Foods*/
+.categories{
+    display:flex;
+    flex-direction: row;
+}
+.categories h2{
+    text-align: center;
+}
+.categories p{
+    position: initial;
+}
+.box1{
+    text-align: center;
+    color: #ffff;
+    background-image: url(/Media/pizza.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 15% 0;
+    border: 1px solid black;
+    width: 26%;
+    
+}
+.box2{
+    text-align: center;
+    color: #ffff;
+    background-image: url(/Media/burger.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 15% 0;
+    border: 1px solid black;
+    width: 26%;
+    
+}
+.box3{
+    text-align: center;
+    color: #ffff;
+    background-image: url(/Media/momo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 15% 0;
+    border: 1px solid black;
+    width: 26%;
+    
 }
